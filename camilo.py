@@ -23,6 +23,12 @@ def multiplicar ():
     resultado = num1 * num2
     return resultado
 
+def potencia ():
+    num1 = int(input("numero 1: "))
+    num2= int(input("numero 2: "))
+    resultado = num1 ** num2
+    return resultado
+
 def dividir ():
     num1 = int(input("numero 1: "))
     num2= int(input("numero 2: "))
@@ -43,6 +49,8 @@ def calculadora():
         print (f"el resultado de la multiplicar es: {multiplicar()}")
     elif opción == 4:
         print (f"el resultado de la division es: {dividir()}")
+    elif opción == 5:
+        print (f"el resultado de la potencia es: {potencia()}")
     else:
         print("la opción no esta disponible")
 
